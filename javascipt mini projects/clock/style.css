@@ -1,0 +1,76 @@
+.clock {
+    width: 500px;
+    height: 500px;
+    background-color: #7df76d;
+    border-radius: 50%;
+    border: 3px solid;
+    /* box-shadow: 0 0 0 30px #e78267; */
+    -webkit-box-shadow: 2px 2px 50px 0px rgb(92, 226, 51);
+    -moz-box-shadow: 2px 2px 50px 0px rgb(71, 226, 51);
+    box-shadow: 2px 2px 50px 0px rgb(92, 226, 51);
+    position: relative;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.number {
+    --r: 56;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 530;
+    transform: rotate(calc(var(--r)*1deg));
+}
+
+.set {
+    --r: 0;
+    position: absolute;
+    width: 9px;
+    height: 40%;
+    /* background-color: black; */
+    left: 50%;
+    bottom: 69%;
+    transform: translate(-50%, 50%) rotate(calc(var(--r)*1deg));
+    transform-origin: bottom;
+    /* rotate(120deg) */
+}
+
+.H {
+    width: 12px;
+    height: 37%;
+    background-color: rgb(12, 18, 66);
+    /* --r: 60; */
+    border-radius: 80%;
+    /* transform: rotate(30deg); */
+}
+
+.S {
+    width: 4px;
+    height: 43%;
+    bottom: 72.3%;
+    background-color: rgb(82, 16, 16);
+    /* --r: 90; */
+    border-radius: 90%;
+    /* transform: rotate(80deg); */
+}
+
+.M {
+    width: 6px;
+    height: 40%;
+    bottom: 71%;
+    background-color: black;
+    border-radius: 70%;
+}
+
+.point {
+    position: absolute;
+    height: 30px;
+    width: 20px;
+    border-radius: 40%;
+    background-color: black;
+    margin-top: 233px;
+    margin-left: 241px;
+}
