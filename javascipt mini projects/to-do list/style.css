@@ -1,0 +1,7 @@
+.container {
+    border: 2px solid green;
+    margin-top: 60px;
+    border-radius: 5%;
+    /* width: 500px; */
+    width: fit-content;
+}
