@@ -1,0 +1,65 @@
+
+.card {
+    position: relative;
+    border: 2px solid black;
+    margin-left: 480px;
+    margin-top: 100px;
+    height: 400px;
+    border-radius: 7%;
+    width: 300px;
+    background-color: #b4b3b3;
+    /* box-shadow: 0px 0px 10px 20px #cecbcb; */
+    /* box-shadow:1px 1px 20px rgb(255, 255, 255), 0 0 25px rgb(95, 95, 207), 0 0 5px rgb(15, 15, 211); */
+    box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #e50b0b,
+  inset 0 0 1.5vw  0.4vw #e50b0b,
+  inset 0 0 0.4vw  0.2vw #e97272,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+  background-image: url(./download.jfif);
+  
+    
+}
+
+.card-body {
+    position: relative;
+    border: 2px solid black;
+    margin-left: 3px;
+    margin-top: 18px;
+    /* margin-bottom: 400px; */
+    height: 358px;
+    width: 260px;
+    background-image: url(./Screenshot_2020-11-22-13-50-19-71.jpg);
+    background-repeat: no-repeat, repeat;
+    border-radius: 7%;
+    cursor: pointer;
+    /* background-color: rgb(29, 28, 28); */
+    /* box-shadow: 0px 0px 7px 5px #535151; */
+    transition: margin-top 2s;
+    /* #535151 */
+
+    /* background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
+    /* background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    
+    color:transparent;
+    
+    border: 2px dotted white;
+   */
+}
+.card-body:hover {
+    position: relative;
+    border: 2px solid black;
+    margin-left: 3px;
+    margin-top: -50px;
+     margin-bottom: 400px; 
+     height: 358px;
+    width: 260px;
+    border-radius: 7%; 
+    /* transition-timing-function: ease; */
+
+ } 
+ #div1 {transition-timing-function: ease;}
