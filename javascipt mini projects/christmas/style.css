@@ -26,6 +26,7 @@ section .box {
     position: absolute;
     width: 450px;
     height: 450px;
+
 }
 
 section .box::before{
@@ -48,11 +49,17 @@ section .box .circle
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg,#fff,#ee43e8);
+    background: linear-gradient(135deg,#fff,#706b70);
+
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+background-image: url(../christmas/IMG-20201227-WA0038.jpg);
+background-repeat: no-repeat;
+/* visibility: hidden; */
+box-shadow: 10px 10px 8px #6d6c6c;
+
     z-index: 1;
 }
 
@@ -64,37 +71,63 @@ section .box .circle::before
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: linear-gradient(315deg,#fff,#d9d8db);
+    /* background: linear-gradient(315deg,#fff,#afaaaa); */
+/* margin-left: 30px; */
+
     border-radius: 50%;
 }
 section .box .circle:hover
 {
     content: '';
     position: absolute;;
-    top: 0px;
+    margin-top: 10px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    color: linear-gradient(315deg,#fff,#9c9494);
-    border: 20px;
+    /* background-image: none; */
+    background: linear-gradient(315deg,#fff,#afaaaa);
+    
+transform: rotateX(180deg);
 }
 
 section .box .circle h2{
 position: absolute;
-z-index: 2;
-font-size: 3rem;
+z-index: 0;
+font-size: 2rem;
 color: rgb(5, 85, 85);
 text-align: center;
 font-weight: 400;
+opacity: 0;
+text-decoration: dashed;
 }
-section .box .circle h2:hover{
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:rgb(4, 70, 70);
+}
+a:hover
+{
+    text-decoration: underline;
+    color: rgb(5, 107, 107);
+
+
+
+}
+
+ section .box .circle h2:hover{
 position: absolute;
 z-index: 2;
 font-size: 3rem;
 color: rgb(3, 46, 46);
 text-align: center;
 font-weight: 400;
-}
+visibility: visible;
+opacity: 1;
+transform: rotateX(-180deg);
+
+
+
+} 
 
 
 section i {
